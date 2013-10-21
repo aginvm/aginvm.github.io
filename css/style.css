@@ -1,0 +1,204 @@
+@font-face{
+	font-family: 'Anaheim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anaheim'), local('Anaheim-Regular'), url(../resources/Font/Anaheim.woff) format('woff');
+}
+@font-face{
+	font-family: 'Ageone';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../resources/Font/Ageone.tff) format('opentype');
+}
+body{
+	padding:0;
+	font-family:'Anaheim';
+	background:url(../images/bg.jpg)repeat;
+	/*letter-spacing:.09em;*/
+	color: #777777;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	color:  #444444;	
+	
+}
+.re-mainContainer{
+	width: 80%;
+	height: auto;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 500px;
+	padding: 15px;
+	/*background-color: grey;*/
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+         -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+              /*background-color: #ffffff;*/
+              background-color: #ffffff;
+
+}
+.body-container {
+	width: 100%;
+	min-height: 500px;
+}
+.slidingImages .carousel-control{
+	margin-top: 9px;
+}
+.slidingImages .carousel{
+	/*border:10px solid #ffffff;*/
+	/*-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+         -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);*/
+
+}
+.headerContainer{
+	/*padding: 10px 0px;*/
+
+}
+.logo{
+	width: 65%;
+	margin-top: 20px;
+}
+.navbars{
+	margin: 10px 0 0px 0px !important;
+}
+ul.navs{
+	padding: 5px;
+	/*border-top:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;*/
+}
+ul.navs li{
+	display: inline-block;
+	list-style-type: none;
+	min-width: 80px;
+	text-align: center;
+	padding:5px 0;
+	font-size: 15px;
+	color: #999999;
+	font-weight: bold;
+	text-shadow:0 1px 0 #FFF;
+	cursor: pointer;
+}
+ul.navs li.services:hover ul.dropdown{
+	display: block;
+}
+ul.dropdown{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	background-color: #b8ec59;
+	margin-left: 0;
+	color: #ffffff;
+}
+li.services ul.dropdown li{
+	display: block;
+	background-color: #b8ec59;
+	padding: 5px;
+	color: #ffffff !important;
+	text-align: left;
+	font-size: 13px;
+	text-shadow:0 1px 0 #bbb ;	
+}
+li.services ul.dropdown li:hover{
+	color: #999999 !important;
+	text-shadow:0 1px 0 #FFF !important;
+	background-color: #ffffff !important;
+}
+.yellowArrow{
+	position: absolute;
+	margin-left: 45px;
+	margin-top: -41px;
+}
+.blueArrow{
+	position: absolute;
+	margin-left:-250px;
+	margin-top: 80px;
+}
+.greenArrow{
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 0px;
+}
+.yellow,.green,.blue{
+	margin: 0 !important;
+	color: #333333;
+	/*text-shadow:0 1px 0 #ffffff;*/
+	padding: 25px;	
+}
+.yellow{
+	background-color: #FFED6B;
+	max-height: 240px;
+}
+.green{
+	background-color: #B1E96D;
+	max-height: 226px;
+}
+.blue{
+	background-color: #9DE6FD;	
+}
+
+.overview{
+	margin-bottom: 30px;
+}
+.overview h3{
+	text-shadow:0 1px 0 #bbb;
+}
+.overview p{
+	text-indent: 40px;
+}
+.footerContent{
+	margin-top: 30px;
+	border-top:1px dotted #ddd;
+}
+/*.nav-active a{
+	color: #444444 !important;
+}*/
+ul.navs .nav-active, ul.navs li:hover{
+	background-color: #b8ec59;
+	color: #ffffff !important;
+	/*border-bottom: 3px solid #b8ec59;*/
+	text-shadow:0 1px 0 #bbb ;		
+}
+/*Social Icons----------------------------------------------------------------------*/
+
+  .social-icons{
+    margin-top: -8px;
+  }
+  .facebook-icon{
+    background:url('../images/Social/facebook.png');
+    background-size: 48px;
+  }
+ 
+  .twitter-icon{
+    background:url('../images/Social/twitter.png');
+    background-size: 48px;
+  }
+  
+  .linkedin-icon{
+    background:url('../images/Social/linkedin.png');
+    background-size: 48px;
+  }
+ 
+  .googleplus-icon{
+    background:url('../images/Social/googleplus.png');
+    background-size: 48px;
+  }
+ 
+  .email-icon{
+    background:url('../images/Social/gmail.png');
+    background-size: 48px;
+  }
+  .skype-icon{
+    background:url('../images/Social/skype.png');
+    background-size: 30px;
+  }
+  .social-icon{
+    height: 48px;
+    width: 48px;  
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -15px;
+    margin-left: -6px !important;
+  }
+/*end social icon----------------------------------------------------------------------*/
